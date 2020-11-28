@@ -142,8 +142,34 @@ app.mainloop()
 
 ### Source code example
 
-### Screenshot
+```python
+import tkinter as tk
 
+window = tk.Tk()
+window.geometry("400x400")
+
+main_pane = tk.PanedWindow(window, orient = "vertical")
+main_pane.pack(fill = tk.BOTH, expand = True)
+
+sub_1 = tk.PanedWindow(main_pane)
+sub_1["bg"] = "red"
+sub_1.pack(fill = tk.BOTH, expand = True)
+
+button1 = tk.Button(sub_1, text="I am in sub pane 1")
+button1.pack()
+
+sub_2 = tk.PanedWindow(main_pane)
+sub_2["bg"] = "blue"
+sub_2.pack(fill = tk.BOTH, expand = True)
+
+button2 = tk.Button(sub_2, text="I am in sub pane 2")
+button2.pack()
+
+window.mainloop()
+```
+
+### Screenshot
+![Tkinter PanedWindow Example](Screenshot_paneWindow.JPG "Tkinter PanedWindow Example")
 
 ## Tkinter Canvas
 
