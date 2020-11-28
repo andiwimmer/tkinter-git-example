@@ -62,6 +62,7 @@ window.mainloop()
 
 ### Source code example
 
+```
 from tkinter import *
 
 def sel():
@@ -81,9 +82,10 @@ label.pack()
 
 root.mainloop()
 
+```
 
 ### Screenshot
-![Tkinter Scale Example](tkinter_scale.png "Tkinter Scale Example")
+![Tkinter Scale Example](tkinter_scale.PNG "Tkinter Scale Example")
 
 ## Tkinter OptionMenu
 
