@@ -61,7 +61,7 @@ opt.config(width=90, font=('Helvetica', 12))
 opt.pack()
 
 app.mainloop()
-````
+```
 ### Screenshot
 ![Tkinter Button Example](tkinter_option.png "Tkinter Button Example")
 
@@ -77,7 +77,23 @@ app.mainloop()
 
 ### Sourcecode Example
 
+```python
+
+from tkinter import * 
+
+window = Tk()
+window.title("Checkbutton Example")
+window.geometry("300x50")
+
+CheckBtn = Checkbutton(window , text = "Checkbutton Example")
+CheckBtn.pack()
+window .mainloop()
+
+```
+
 ### Screenshot
+
+![Tkinter Button Example](tkinter_checkbutton.png "Tkinter Button Example")
 
 
 ## Tkinter LabelFrame and RadioButton
