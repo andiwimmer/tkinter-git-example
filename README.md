@@ -46,10 +46,11 @@ window.mainloop()
 ## Tkinter Dialogs
 
 ### Sourcecode Example
-````python
+```python
 from tkinter import messagebox
 
 messagebox.showinfo("Vorlesung Ende","Wir möchten Sie darüber informieren, dass diese Vorlesung bald endet.")
+
 ```
 
 ### Screenshot
