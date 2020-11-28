@@ -140,6 +140,8 @@ messagebox.showinfo("Vorlesung Ende","Wir möchten Sie darüber informieren, das
 ## Tkinter LabelFrame and RadioButton
 
 ### Source code example
+
+```python
 import tkinter as tk
 
 window = tk.Tk()
@@ -154,6 +156,7 @@ radiobutton.pack()
 lblframe.pack()
 
 window.mainloop()
+```
 
 ### Screenshot
 ![Tkinter Button Example](g6_screenshot.png "Gruppe 6 Screnshot Example")
