@@ -83,8 +83,24 @@ app.mainloop()
 ## Tkinter LabelFrame and RadioButton
 
 ### Source code example
+import tkinter as tk
+
+window = tk.Tk()
+window.title("Button Example")
+window.geometry("280x50")
+
+lblframe = tk.LabelFrame(window, text="A label frame", bg="green")
+radiobutton = tk.Radiobutton(lblframe, text="A radio button", value=0)
+
+#btn = tk.Button(window, text="A button", fg="red", bg="yellow")
+radiobutton.pack()
+lblframe.pack()
+
+window.mainloop()
 
 ### Screenshot
+![Tkinter Button Example](g6_screenshot.png "Gruppe 6 Screnshot Example")
+
 
 
 ## Tkinter PanedWindow
