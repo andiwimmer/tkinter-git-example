@@ -120,9 +120,15 @@ app.mainloop()
 ## Tkinter Dialogs
 
 ### Sourcecode Example
+```python
+from tkinter import messagebox
+
+messagebox.showinfo("Vorlesung Ende","Wir möchten Sie darüber informieren, dass diese Vorlesung bald endet.")
+
+```
 
 ### Screenshot
-
+![Dialog Screenshot](dialog.png "Dialog Screenshot")
 
 ## Tkinter Checkbutton
 
