@@ -95,7 +95,7 @@ window.mainloop()
 ```
 
 ### Screenshot
-![Tkinter PanedWindow Example](Screenshot_paneWindow.jpg "Tkinter PanedWindow Example")
+![Tkinter PanedWindow Example](Screenshot_paneWindow.JPG "Tkinter PanedWindow Example")
 
 ## Tkinter Canvas
 
