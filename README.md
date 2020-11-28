@@ -38,9 +38,32 @@ window.mainloop()
 
 ## Tkinter OptionMenu
 
-### Source code example
 
+### Source code example
+```python
+import tkinter as tk
+
+OptionList = [
+"Clara",
+"Milena",
+"Michael",
+]
+
+app = tk.Tk()
+
+app.geometry('500x200')
+
+variable = tk.StringVar(app)
+variable.set(OptionList[0])
+
+opt = tk.OptionMenu(app, variable, *OptionList)
+opt.config(width=90, font=('Helvetica', 12))
+opt.pack()
+
+app.mainloop()
+````
 ### Screenshot
+![Tkinter Button Example](tkinter_option.png "Tkinter Button Example")
 
 
 ## Tkinter Dialogs
